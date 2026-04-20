@@ -915,9 +915,9 @@ const Hero = () => (
         </span>
         
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white mb-6 leading-[1.1]">
-          Learn Creative Skills<br />
+          Ultimate AI Video Editing<br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-purple-200 to-purple-400">
-            That Pay Bills.
+            Master Class
           </span>
         </h1>
         
