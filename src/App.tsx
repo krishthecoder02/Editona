@@ -1197,13 +1197,13 @@ const VideoShowcase = () => {
 // --- New Scrollable Review Section ---
 const HorizontalReviews = () => {
   const reviews = [
-    { name: "Aditya R.", role: "YouTuber", text: "The editing techniques taught here are exactly what big creators use. My retention went up by 40%.", stars: 5 },
-    { name: "Sneha P.", role: "Freelancer", text: "I landed my first $500 client within a month of joining. The portfolio building module is gold.", stars: 5 },
-    { name: "Rahul K.", role: "Student", text: "I knew nothing about After Effects. Now I'm making 3D camera movements. Best investment ever.", stars: 5 },
-    { name: "Vikram S.", role: "Content Creator", text: "The AI tools section saved me hours of work. Krish explains everything so simply.", stars: 4 },
-    { name: "Ananya M.", role: "Editor", text: "Support on WhatsApp is super fast. Whenever I got stuck, a mentor helped me out.", stars: 5 },
-    { name: "Rohan D.", role: "Agency Owner", text: "Trained my whole team using this course. The workflow optimization is top notch.", stars: 5 },
-    { name: "Kartik T.", role: "Vlogger", text: "Finally understood color grading properly. My travel vlogs look cinematic now.", stars: 5 },
+    { name: "Ritik Kumar Yadav.", role: "Video Editor", text: "As a video editor, jo AI-based editing techniques maine yahan seekhi hain na, wahi main abhi apni job me bhi kaafi use kar raha hoon. Aur honestly, inki wajah se meri video retention bhi kaafi improve hui hai.", stars: 5 },
+    { name: "Gaurav Gupta", role: "Freelancer", text: "Main join karne ke ek mahine ke andar hi apna first $100 ka client land kar liya.", stars: 5 },
+    { name: "Sandesh Sarraf", role: "Student", text: "I knew nothing about After Effects. Now I'm making 3D camera movements. Best investment ever.", stars: 5 },
+    { name: "Dilip Mondal", role: "Content Creator", text: "The AI tools section saved me hours of work. Krishna explains everything so simply.", stars: 4 },
+    { name: "Dipti Roy", role: "Editor", text: "WhatsApp pe support kaafi fast milta hai. Jab bhi main kahin stuck hua, mentor ne turant help kar di.", stars: 5 },
+    { name: "Abhishekh Jha", role: "Agency Owner", text: "Trained my whole team using this course. The workflow optimization is top notch.", stars: 5 },
+    { name: "Kartik Mahto", role: "Vlogger", text: "Finally understood color grading properly. My travel vlogs look cinematic now.", stars: 5 },
   ];
 
   return (
