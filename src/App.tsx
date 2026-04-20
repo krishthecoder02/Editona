@@ -1126,7 +1126,7 @@ const HorizontalReviews = () => {
 };
 
 const StudentResults = () => {
-    const shorts = ["XqbJfCgDneE", "KwhEqtwU8a8", "tq94nejz_LI", "o_dd0S6mGV0"];
+    const shorts = ["VX3llagtIJw", "xm1IuH-yUD4", "tq94nejz_LI", "o_dd0S6mGV0"];
 
     return (
         <section id="reviews" className="py-24 px-6 bg-black/40">
