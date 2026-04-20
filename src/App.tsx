@@ -860,7 +860,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import {  MessageCircle, Monitor, Layers, Image as ImageIcon, Zap, Check, Menu,  Youtube, ArrowRight, Star, Video,  Award, Briefcase } from 'lucide-react';
 import * as THREE from 'three';
-import Logo from "./assets/logo_full_png.png"
+import Logo from "./assets/Logo_final_png.png"
 // --- WhatsApp Helper ---
 const openWhatsApp = (msg: string) => {
   const phone = "916299172019";
