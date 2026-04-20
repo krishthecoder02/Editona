@@ -997,6 +997,82 @@ const WhatYouLearn = () => {
   );
 };
 
+// const VideoShowcase = () => {
+//     const [activeTab, setActiveTab] = useState<'long' | 'short'>('long');
+
+//     return (
+//         <section id="portfolio" className="py-24 px-6 bg-gradient-to-b from-transparent to-purple-900/10">
+//             <div className="max-w-7xl mx-auto">
+//                 <div className="text-center mb-12">
+//                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">What You Will <span className="text-purple-400">Create</span></h2>
+                    
+//                     <div className="inline-flex p-1 bg-white/5 backdrop-blur-lg border border-white/10 rounded-full">
+//                         <button 
+//                             className={`px-6 py-2 rounded-full text-sm font-bold transition-all flex items-center gap-2 ${activeTab === 'long' ? 'bg-purple-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'}`}
+//                             onClick={() => setActiveTab('long')}
+//                         >
+//                             <Monitor className="w-4 h-4" /> Long Form
+//                         </button>
+//                         <button 
+//                             className={`px-6 py-2 rounded-full text-sm font-bold transition-all flex items-center gap-2 ${activeTab === 'short' ? 'bg-purple-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'}`}
+//                             onClick={() => setActiveTab('short')}
+//                         >
+//                             <Zap className="w-4 h-4" /> Short Form
+//                         </button>
+//                     </div>
+//                 </div>
+
+//                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+//                     {activeTab === 'long' ? (
+//                         <>
+//                             <div className="group bg-black border border-white/10 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-colors">
+//                                 <div className="aspect-video w-full bg-gray-900 relative">
+//                                     <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube.com/watch?v=F6MgT_Bdgz8" title="Long Form Edit 1" allowFullScreen></iframe>
+//                                 </div>
+//                                 <div className="p-6">
+//                                     <h4 className="text-lg font-bold text-white mb-2">Cinematic AI Video</h4>
+//                                     <p className="text-sm text-gray-400">Learn Higgsfield Ai Basic To Advanced</p>
+//                                 </div>
+//                             </div>
+//                             <div className="group bg-black border border-white/10 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-colors">
+//                                 <div className="aspect-video w-full bg-gray-900 relative">
+//                                     <iframe className="absolute inset-0 w-full h-full" src="https://youtu.be/7RaQgAJPuP4?si=0IxQLh0DSk_n0B1e" title="Long Form Edit 2" allowFullScreen></iframe>
+//                                 </div>
+//                                 <div className="p-6">
+//                                     <h4 className="text-lg font-bold text-white mb-2">Documentary Style</h4>
+//                                     <p className="text-sm text-gray-400">Master archival footage blending and sound design.</p>
+//                                 </div>
+//                             </div>
+//                         </>
+//                     ) : (
+//                         <>
+//                              <div className="group bg-black border border-white/10 rounded-2xl overflow-hidden max-w-sm mx-auto w-full hover:border-purple-500/50 transition-colors">
+//                                 <div className="aspect-[9/16] w-full bg-gray-900 relative">
+//                                     <iframe className="absolute inset-0 w-full h-full" src="https://youtube.com/shorts/yz8649fN07c?si=7xeJrmuaN4bhVXzG" title="Short Form Edit 1" allowFullScreen></iframe>
+//                                 </div>
+//                                 <div className="p-6">
+//                                     <h4 className="text-lg font-bold text-white mb-2">Viral Reels</h4>
+//                                     <p className="text-sm text-gray-400">High retention subtitles and motion graphics.</p>
+//                                 </div>
+//                             </div>
+//                             <div className="group bg-black border border-white/10 rounded-2xl overflow-hidden max-w-sm mx-auto w-full hover:border-purple-500/50 transition-colors">
+//                                 <div className="aspect-[9/16] w-full bg-gray-900 relative">
+//                                     <iframe className="absolute inset-0 w-full h-full" src="https://youtube.com/shorts/gslMMfs5SjM?si=0bXTqRjr2jagmQT3" title="Short Form Edit 2" allowFullScreen></iframe>
+//                                 </div>
+//                                 <div className="p-6">
+//                                     <h4 className="text-lg font-bold text-white mb-2">Dynamic Shorts</h4>
+//                                     <p className="text-sm text-gray-400">Transitions and SFX that keep viewers hooked.</p>
+//                                 </div>
+//                             </div>
+//                         </>
+//                     )}
+//                 </div>
+//             </div>
+//         </section>
+//     );
+// };
+
+
 const VideoShowcase = () => {
     const [activeTab, setActiveTab] = useState<'long' | 'short'>('long');
 
@@ -1004,17 +1080,28 @@ const VideoShowcase = () => {
         <section id="portfolio" className="py-24 px-6 bg-gradient-to-b from-transparent to-purple-900/10">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">What You Will <span className="text-purple-400">Create</span></h2>
+                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+                        What You Will <span className="text-purple-400">Create</span>
+                    </h2>
                     
                     <div className="inline-flex p-1 bg-white/5 backdrop-blur-lg border border-white/10 rounded-full">
                         <button 
-                            className={`px-6 py-2 rounded-full text-sm font-bold transition-all flex items-center gap-2 ${activeTab === 'long' ? 'bg-purple-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'}`}
+                            className={`px-6 py-2 rounded-full text-sm font-bold transition-all flex items-center gap-2 ${
+                                activeTab === 'long' 
+                                ? 'bg-purple-600 text-white shadow-lg' 
+                                : 'text-gray-400 hover:text-white'
+                            }`}
                             onClick={() => setActiveTab('long')}
                         >
                             <Monitor className="w-4 h-4" /> Long Form
                         </button>
+
                         <button 
-                            className={`px-6 py-2 rounded-full text-sm font-bold transition-all flex items-center gap-2 ${activeTab === 'short' ? 'bg-purple-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'}`}
+                            className={`px-6 py-2 rounded-full text-sm font-bold transition-all flex items-center gap-2 ${
+                                activeTab === 'short' 
+                                ? 'bg-purple-600 text-white shadow-lg' 
+                                : 'text-gray-400 hover:text-white'
+                            }`}
                             onClick={() => setActiveTab('short')}
                         >
                             <Zap className="w-4 h-4" /> Short Form
@@ -1025,43 +1112,76 @@ const VideoShowcase = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {activeTab === 'long' ? (
                         <>
+                            {/* Long Video 1 */}
                             <div className="group bg-black border border-white/10 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-colors">
                                 <div className="aspect-video w-full bg-gray-900 relative">
-                                    <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube.com/watch?v=F6MgT_Bdgz8" title="Long Form Edit 1" allowFullScreen></iframe>
+                                    <iframe 
+                                        className="absolute inset-0 w-full h-full"
+                                        src="https://www.youtube.com/embed/F6MgT_Bdgz8"
+                                        title="Long Form Edit 1"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    ></iframe>
                                 </div>
                                 <div className="p-6">
                                     <h4 className="text-lg font-bold text-white mb-2">Cinematic AI Video</h4>
-                                    <p className="text-sm text-gray-400">Learn Higgsfield Ai Basic To Advanced</p>
+                                    <p className="text-sm text-gray-400">Learn Higgsfield AI Basic to Advanced</p>
                                 </div>
                             </div>
+
+                            {/* Long Video 2 */}
                             <div className="group bg-black border border-white/10 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-colors">
                                 <div className="aspect-video w-full bg-gray-900 relative">
-                                    <iframe className="absolute inset-0 w-full h-full" src="https://youtu.be/7RaQgAJPuP4?si=0IxQLh0DSk_n0B1e" title="Long Form Edit 2" allowFullScreen></iframe>
+                                    <iframe 
+                                        className="absolute inset-0 w-full h-full"
+                                        src="https://www.youtube.com/embed/7RaQgAJPuP4"
+                                        title="Long Form Edit 2"
+                                        allowFullScreen
+                                    ></iframe>
                                 </div>
                                 <div className="p-6">
                                     <h4 className="text-lg font-bold text-white mb-2">Documentary Style</h4>
-                                    <p className="text-sm text-gray-400">Master archival footage blending and sound design.</p>
+                                    <p className="text-sm text-gray-400">
+                                        Master archival footage blending and sound design.
+                                    </p>
                                 </div>
                             </div>
                         </>
                     ) : (
                         <>
-                             <div className="group bg-black border border-white/10 rounded-2xl overflow-hidden max-w-sm mx-auto w-full hover:border-purple-500/50 transition-colors">
+                            {/* Short Video 1 */}
+                            <div className="group bg-black border border-white/10 rounded-2xl overflow-hidden max-w-sm mx-auto w-full hover:border-purple-500/50 transition-colors">
                                 <div className="aspect-[9/16] w-full bg-gray-900 relative">
-                                    <iframe className="absolute inset-0 w-full h-full" src="https://youtube.com/shorts/yz8649fN07c?si=7xeJrmuaN4bhVXzG" title="Short Form Edit 1" allowFullScreen></iframe>
+                                    <iframe 
+                                        className="absolute inset-0 w-full h-full"
+                                        src="https://www.youtube.com/embed/yz8649fN07c"
+                                        title="Short Form Edit 1"
+                                        allowFullScreen
+                                    ></iframe>
                                 </div>
                                 <div className="p-6">
                                     <h4 className="text-lg font-bold text-white mb-2">Viral Reels</h4>
-                                    <p className="text-sm text-gray-400">High retention subtitles and motion graphics.</p>
+                                    <p className="text-sm text-gray-400">
+                                        High retention subtitles and motion graphics.
+                                    </p>
                                 </div>
                             </div>
+
+                            {/* Short Video 2 */}
                             <div className="group bg-black border border-white/10 rounded-2xl overflow-hidden max-w-sm mx-auto w-full hover:border-purple-500/50 transition-colors">
                                 <div className="aspect-[9/16] w-full bg-gray-900 relative">
-                                    <iframe className="absolute inset-0 w-full h-full" src="https://youtube.com/shorts/gslMMfs5SjM?si=0bXTqRjr2jagmQT3" title="Short Form Edit 2" allowFullScreen></iframe>
+                                    <iframe 
+                                        className="absolute inset-0 w-full h-full"
+                                        src="https://www.youtube.com/embed/gslMMfs5SjM"
+                                        title="Short Form Edit 2"
+                                        allowFullScreen
+                                    ></iframe>
                                 </div>
                                 <div className="p-6">
                                     <h4 className="text-lg font-bold text-white mb-2">Dynamic Shorts</h4>
-                                    <p className="text-sm text-gray-400">Transitions and SFX that keep viewers hooked.</p>
+                                    <p className="text-sm text-gray-400">
+                                        Transitions and SFX that keep viewers hooked.
+                                    </p>
                                 </div>
                             </div>
                         </>
@@ -1071,6 +1191,8 @@ const VideoShowcase = () => {
         </section>
     );
 };
+
+
 
 // --- New Scrollable Review Section ---
 const HorizontalReviews = () => {
