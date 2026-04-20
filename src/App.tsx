@@ -1027,16 +1027,16 @@ const VideoShowcase = () => {
                         <>
                             <div className="group bg-black border border-white/10 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-colors">
                                 <div className="aspect-video w-full bg-gray-900 relative">
-                                    <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/HrrrTsJhHHw" title="Long Form Edit 1" allowFullScreen></iframe>
+                                    <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube.com/watch?v=F6MgT_Bdgz8" title="Long Form Edit 1" allowFullScreen></iframe>
                                 </div>
                                 <div className="p-6">
-                                    <h4 className="text-lg font-bold text-white mb-2">Cinematic Storytelling</h4>
-                                    <p className="text-sm text-gray-400">Learn pacing, music selection, and narrative structure.</p>
+                                    <h4 className="text-lg font-bold text-white mb-2">Cinematic AI Video</h4>
+                                    <p className="text-sm text-gray-400">Learn Higgsfield Ai Basic To Advanced</p>
                                 </div>
                             </div>
                             <div className="group bg-black border border-white/10 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-colors">
                                 <div className="aspect-video w-full bg-gray-900 relative">
-                                    <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/nUKiMx2aVvg" title="Long Form Edit 2" allowFullScreen></iframe>
+                                    <iframe className="absolute inset-0 w-full h-full" src="https://youtu.be/7RaQgAJPuP4?si=0IxQLh0DSk_n0B1e" title="Long Form Edit 2" allowFullScreen></iframe>
                                 </div>
                                 <div className="p-6">
                                     <h4 className="text-lg font-bold text-white mb-2">Documentary Style</h4>
@@ -1048,7 +1048,7 @@ const VideoShowcase = () => {
                         <>
                              <div className="group bg-black border border-white/10 rounded-2xl overflow-hidden max-w-sm mx-auto w-full hover:border-purple-500/50 transition-colors">
                                 <div className="aspect-[9/16] w-full bg-gray-900 relative">
-                                    <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/P4PF6lB2J9c" title="Short Form Edit 1" allowFullScreen></iframe>
+                                    <iframe className="absolute inset-0 w-full h-full" src="https://youtube.com/shorts/yz8649fN07c?si=7xeJrmuaN4bhVXzG" title="Short Form Edit 1" allowFullScreen></iframe>
                                 </div>
                                 <div className="p-6">
                                     <h4 className="text-lg font-bold text-white mb-2">Viral Reels</h4>
@@ -1057,7 +1057,7 @@ const VideoShowcase = () => {
                             </div>
                             <div className="group bg-black border border-white/10 rounded-2xl overflow-hidden max-w-sm mx-auto w-full hover:border-purple-500/50 transition-colors">
                                 <div className="aspect-[9/16] w-full bg-gray-900 relative">
-                                    <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/nQ1fRb28yDo" title="Short Form Edit 2" allowFullScreen></iframe>
+                                    <iframe className="absolute inset-0 w-full h-full" src="https://youtube.com/shorts/gslMMfs5SjM?si=0bXTqRjr2jagmQT3" title="Short Form Edit 2" allowFullScreen></iframe>
                                 </div>
                                 <div className="p-6">
                                     <h4 className="text-lg font-bold text-white mb-2">Dynamic Shorts</h4>
