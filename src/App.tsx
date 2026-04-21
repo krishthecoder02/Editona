@@ -1429,10 +1429,10 @@ const Pricing = () => (
                     </div>
                     
                     <button 
-                        onClick={() => openWhatsApp("I am ready to enroll for Rs. 1999/-")} 
+                        onClick={() => window.open("https://rzp.io/rzp/BTDlFfW7", "_blank")}
                         className="w-full py-4 bg-white text-black hover:bg-gray-200 rounded-xl font-bold shadow-lg transition-all transform hover:scale-[1.02] flex items-center justify-center gap-2"
                     >
-                        Enroll on WhatsApp <ArrowRight className="w-4 h-4" />
+                        Enroll Now <ArrowRight className="w-4 h-4" />
                     </button>
                     <p className="text-center text-xs text-gray-600 mt-4">Secure enrollment via verified business chat.</p>
                 </div>
